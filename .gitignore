@@ -1,19 +1,46 @@
-# Bloqueo preventivo de datos reales o extracciones crudas
+# =============================================================================
+# 1. PROTECCIÓN ESTRICTA CONTRA FUGA DE DATOS PERSONALES (PII) Y BASES REALES
+# =============================================================================
 *real*
 *produccion*
 *actas_grado*
+*graduados*
 *Connections.csv
 *.xlsx
 *.xls
-data/raw/
-data/private/
+*.ods
+data/
+private/
+exports/
+backups/
 
-# Excepción explícita para datos sintéticos de demostración
+# Bloquear cualquier CSV o JSON suelto fuera de la carpeta canónica de datos sintéticos
+*.csv
+*.tsv
+*.json
 !mock_data/*.csv
 
-# Variables de entorno y bases de datos locales
+# =============================================================================
+# 2. SECRETOS, LLAVES CRIPTOGRÁFICAS (HMAC/TLS) Y VOLCADOS DE BASE DE DATOS
+# =============================================================================
 .env
+.env.*
 *.pem
 *.key
+*.crt
+*.dump
+*.sql.gz
+*.bak
 *.sqlite
+*.sqlite3
 *.db
+
+# =============================================================================
+# 3. ARCHIVOS TEMPORALES DE SISTEMA OPERATIVO E IDE
+# =============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc

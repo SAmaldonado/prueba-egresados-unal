@@ -1,6 +1,7 @@
 # Declaración de Datos Sintéticos de Demostración (`mock_data/`)
 
 ## 1. Naturaleza 100% Ficticia de los Registros
+
 Todos los archivos CSV contenidos en este directorio han sido generados de forma **completamente sintética** con el único propósito de comprobar el funcionamiento técnico del esquema relacional PostgreSQL, sus restricciones de integridad y las reglas de control de calidad.
 
 * **Cero extracción de LinkedIn:** Ningún registro proviene de consultas o *scraping* sobre perfiles reales de LinkedIn.
