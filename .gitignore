@@ -1,0 +1,19 @@
+# Bloqueo preventivo de datos reales o extracciones crudas
+*real*
+*produccion*
+*actas_grado*
+*Connections.csv
+*.xlsx
+*.xls
+data/raw/
+data/private/
+
+# Excepción explícita para datos sintéticos de demostración
+!mock_data/*.csv
+
+# Variables de entorno y bases de datos locales
+.env
+*.pem
+*.key
+*.sqlite
+*.db
