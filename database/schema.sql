@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS catalogos.cat_empresa (
     nombre_canonico VARCHAR(150) NOT NULL UNIQUE,
     sector_economico_id VARCHAR(10) NOT NULL REFERENCES catalogos.cat_sector_economico(sector_id),
     ubicacion_sede_id INT NOT NULL REFERENCES catalogos.cat_ubicacion(ubicacion_id),
-    tamano_empresa VARCHAR(25) NOT NULL CHECK (
+    tamano_empresa VARCHAR(50) NOT NULL CHECK (
         tamano_empresa IN ('MICRO_PEQUENA', 'MEDIANA', 'GRAN_EMPRESA', 'INSTITUCION_PUBLICA_ACADEMICA')
     ),
     es_entidad_sintetica BOOLEAN NOT NULL DEFAULT TRUE
