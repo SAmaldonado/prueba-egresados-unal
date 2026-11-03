@@ -1,0 +1,8 @@
+id_egresado,codigo_acta_hmac,perfil_origen_ref,estado_autorizacion,fecha_registro_boveda,es_dato_sintetico
+550e8400-e29b-41d4-a716-446655440001,a1b2c3d4e5f60001a1b2c3d4e5f60001a1b2c3d4e5f60001a1b2c3d4e5f60001,urn:sintetico:perfil:egresado-demo-001,DATO_SINTETICO_DEMO,2026-10-15 10:00:00-05,true
+550e8400-e29b-41d4-a716-446655440002,a1b2c3d4e5f60002a1b2c3d4e5f60002a1b2c3d4e5f60002a1b2c3d4e5f60002,urn:sintetico:perfil:egresado-demo-002,DATO_SINTETICO_DEMO,2026-10-16 11:20:00-05,true
+550e8400-e29b-41d4-a716-446655440003,a1b2c3d4e5f60003a1b2c3d4e5f60003a1b2c3d4e5f60003a1b2c3d4e5f60003,urn:sintetico:perfil:egresado-demo-003,DATO_SINTETICO_DEMO,2026-10-18 09:15:00-05,true
+550e8400-e29b-41d4-a716-446655440004,a1b2c3d4e5f60004a1b2c3d4e5f60004a1b2c3d4e5f60004a1b2c3d4e5f60004,urn:sintetico:perfil:egresado-demo-004,DATO_SINTETICO_DEMO,2026-10-20 14:40:00-05,true
+550e8400-e29b-41d4-a716-446655440005,a1b2c3d4e5f60005a1b2c3d4e5f60005a1b2c3d4e5f60005a1b2c3d4e5f60005,urn:sintetico:perfil:egresado-demo-005,DATO_SINTETICO_DEMO,2026-10-22 16:05:00-05,true
+550e8400-e29b-41d4-a716-446655440006,a1b2c3d4e5f60006a1b2c3d4e5f60006a1b2c3d4e5f60006a1b2c3d4e5f60006,urn:sintetico:perfil:egresado-demo-006,DATO_SINTETICO_DEMO,2026-10-25 12:30:00-05,true
+550e8400-e29b-41d4-a716-446655440008,a1b2c3d4e5f60008a1b2c3d4e5f60008a1b2c3d4e5f60008a1b2c3d4e5f60008,urn:sintetico:perfil:egresado-demo-008,DATO_SINTETICO_DEMO,2024-05-10 08:30:00-05,true

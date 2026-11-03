@@ -1,0 +1,8 @@
+id_auditoria,id_egresado,fuente_primaria,fecha_captura,nivel_confianza,estado_completitud,rol_verificador,observacion_auditoria
+5001,550e8400-e29b-41d4-a716-446655440001,AUTOGESTION_EGRESADO,2026-10-15 10:00:00-05,ALTO,COMPLETO,ANALISTA_CALIDAD_01,Escenario 1: Trayectoria completa con 2 titulos y 3 empleos secuenciales verificados.
+5002,550e8400-e29b-41d4-a716-446655440002,AUTOGESTION_EGRESADO,2026-10-16 11:20:00-05,ALTO,COMPLETO,ANALISTA_CALIDAD_01,Escenario 2: Trabajo remoto desde Bogota para empleador radicado en Estados Unidos.
+5003,550e8400-e29b-41d4-a716-446655440003,VERIFICACION_ASISTIDA_LINKEDIN,2026-10-18 09:15:00-05,MEDIO,PARCIAL_FECHAS_APROXIMADAS,ANALISTA_CALIDAD_02,Escenario 3: Fecha de inicio de empleo reportada solo con precision anual (2021).
+5004,550e8400-e29b-41d4-a716-446655440004,VERIFICACION_ASISTIDA_LINKEDIN,2026-10-20 14:40:00-05,ALTO,PARCIAL_HOMOLOGACION_PENDIENTE,ANALISTA_CALIDAD_02,Escenario 4: Cargo original ambiguo conservado intacto; pendiente homologar nivel y area.
+5005,550e8400-e29b-41d4-a716-446655440005,CRUCE_INSTITUCIONAL_OLE,2026-10-22 16:05:00-05,ALTO,COMPLETO,ANALISTA_CALIDAD_01,Escenario 5: Dos empleos vigentes simultaneos validados (industria + docencia catedra).
+5006,550e8400-e29b-41d4-a716-446655440006,AUTOGESTION_EGRESADO,2026-10-25 12:30:00-05,ALTO,COMPLETO,ANALISTA_CALIDAD_01,Escenario 6: Transicion laboral hacia area comercial en sector comercio minorista.
+5008,550e8400-e29b-41d4-a716-446655440008,VERIFICACION_ASISTIDA_LINKEDIN,2024-05-10 08:30:00-05,MEDIO,INCOMPLETO_REVISAR,ANALISTA_CALIDAD_02,Escenario 8: Registro capturado el 10 de mayo de 2024 sin actualizacion posterior; figura aun como practicante desde 2017.
